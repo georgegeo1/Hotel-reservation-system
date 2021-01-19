@@ -1,0 +1,98 @@
+/* * { border: 1px dotted red } */
+/*see http://api.jqueryui.com/slider/#theming*/
+/*and https://stackoverflow.com/questions/13033710/jquery-ui-slider-styling*/
+.ui-slider {
+    height: 1.6em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.ui-slider .ui-slider-handle{
+    width: 3em;
+    height: 2em;
+    text-align: center;
+}
+/*---------------------------------------------*/
+/* see https://stackoverflow.com/questions/40577430/bootstrap-vertical-align-a-row-in-a-col */
+.row {
+    display: flex;
+    align-items: baseline;
+}
+/*---------------------------------------------*/
+/* see https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting-using-css */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/*---------------------------------------------*/
+#rooms_1b, #rooms_2b {
+    font-size: 1.6em;
+}
+/*---------------------------------------------*/
+nav.temp-menu {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+nav.temp-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+}
+
+nav.temp-menu li { display: inline-block; }
+
+nav.temp-menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    /*margin: 20px;*/
+    text-decoration: none;
+}
+
+/*li a:hover { background-color: #111; }*/
+
+nav.temp-menu li a:hover { color: navajowhite; }
+
+/*
+li a:visited { color: white; text-decoration: none; }
+
+li a:active { color: yellow; text-decoration: none; }
+*/
+.temp-table table, th, tr, td {
+    border: 1px solid black;
+}
+
+.temp1 {
+    background-color: darkgreen;
+    color: white;
+    font-size: 1em;
+    padding: 2px;
+}
+
+/*https://stackoverflow.com/questions/5012111/how-to-position-a-div-in-the-middle-of-the-screen-when-the-page-is-bigger-than-t */
+
+#search1 {
+    position:fixed;
+    top: 30%;
+    left: 50%;
+    width:32em;
+    height:20em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #58ACFA;
+}
+
+
+

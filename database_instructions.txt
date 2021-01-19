@@ -1,0 +1,7 @@
+From the phpMyAdmin panel "Import" the two .sql files located in the database-sqls folder.
+
+One file creates the user (import only once).
+
+Second file creates the database.
+
+To recreate the database (after a modification) import the second file again.

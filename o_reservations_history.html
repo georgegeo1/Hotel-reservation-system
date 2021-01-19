@@ -1,0 +1,83 @@
+<?php
+require_once 'include/connect.php';
+include "include/head.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hotel Admin System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hotel Admin System</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      </li>
+      <li><a href="hotel_details.html">Hotel's details</a></li>
+      <li><a href="upload.html">Upload</a></li>
+      <li><a href="o_reservations.html">Reservations</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Account <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="">Settings</a></li>
+        <li><a href="index.html">Logout</a></li>
+        </ul>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+    <div class="col-sm-1 col-md-2"></div>
+    <div class="col-sm-10 col-md-8">
+
+    <br><br> <h2>Reservations' history</h2>
+
+    <table class="temp-table">
+        <tbody>
+        <tr>
+            <td>Hotel Name</td>
+            <td><a href="hotel_main.php" target="_blank"><img src="http://via.placeholder.com/100x100"></a></td>
+            <td><a href="hotel_main.php" target="_blank">Hotel Info</a></td>
+            <td>From Date</td>
+            <td>To Date</td>
+            <td>1-bed rooms: 0<br>2-bed rooms: 2</td>
+            <td>Total Price</td>
+            <td><input type="button" class="btn btn-danger" value="Cancel"></td>
+            <td><input type="button" class="btn btn-info" value="Rate"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="temp-table">
+        <tbody>
+        <tr>
+            <td>Hotel Name</td>
+            <td><a href="hotel_main.php" target="_blank"><img src="http://via.placeholder.com/100x100"></a></td>
+            <td><a href="hotel_main.php" target="_blank">Hotel Info</a></td>
+            <td>From Date</td>
+            <td>To Date</td>
+            <td>1-bed rooms: 1<br>2-bed rooms: 0</td>
+            <td>Total Price</td>
+            <td><input type="button" class="btn btn-danger" value="Cancel"></td>
+            <td><input type="button" class="btn btn-info" value="Rate"></td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="col-sm-1 col-md-2"></div>
+
+</div>
+  
+     
+</body>
+</html>
